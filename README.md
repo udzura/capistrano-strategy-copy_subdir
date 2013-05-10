@@ -1,24 +1,20 @@
 # Capistrano::Strategy::CopySubdir
 
-TODO: Write a gem description
+Introduce Capistrano::Deploy::Strategy::CopySubdir 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano-strategy-copy_subdir'
+    gem 'capistrano-strategy-copy_subdir', github: "udzura/capistrano-strategy-copy_subdir"
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install capistrano-strategy-copy_subdir
-
 ## Usage
 
-TODO: Write usage instructions here
+    set :deploy_subdir, "server-proj"
 
 ## Contributing
 
